@@ -1,0 +1,101 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+h1, h2 {
+  font-family: "Georgia", sans-serif;
+  color: #000101;
+  font-weight: 600;
+}
+
+#main_content {
+  min-height: 100vh;
+}
+
+.btn-nav-page {
+  font-family: Arial, sans-serif;
+  font-size: 33.2px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  text-transform: uppercase;
+  min-height: 90px;
+  padding: 2px 12px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+  -webkit-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+  width: 40%;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+@media (min-width: 410px) {
+  .btn-nav-page {
+    padding: 2px 40px;
+  }
+}
+
+.btn:hover {
+  -webkit-transition: background-color 300ms ease-out;
+  transition: background-color 300ms ease-out;
+}
+
+/*CONTENT SETTINGS */
+.entry-content p {
+  color: #444444;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.embed-responsive-16by9::before {
+  padding-top:0 !important;
+}
+
+article.type-page{
+  overflow: hidden;
+}
+article.type-page ul li {
+  width: 100% !important;
+  list-style: circle;
+}
+
+article.type-page ol li {
+  width: 100% !important;
+}
+
+#native_intro {
+  display: none;
+}
+#social_intro {
+  display: none;
+}
+
+
+@media (width: 2000px) and (height: 2000px) {
+  .ad_placeholder, .top_mobile_placeholder, .top_tablet_placeholder, .top_desktop_placeholder,
+  .bottom_mobile_placeholder, .bottom_tablet_placeholder, .bottom_desktop_placeholder,
+  #ad-mobile-top-placeholder, #ad-mobile-bottom-placeholder {
+    width: 750px !important;
+    min-height: 230px !important;
+    background-color: transparent !important;
+    background-image: url(top_ads.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+#syndication-disclaimer{
+  color: #999;
+  font-size: 12px;
+}
+#syndication-disclaimer a{
+  color: #999;
+  font-size: 12px;
+  text-decoration: underline;
+}
